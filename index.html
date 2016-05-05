@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Konversi Mata Uang</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<link href="style.css" rel="stylesheet" type="text/css"></link>
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<style>
+	table, td,tr,th {
+		border: 1px solid black;
+	}
+	</style>
+</head>
+<script>
+	function nilai()
+	{
+		if(a.value!=0 && c.value=='o')
+		{
+			b.value=(eval(a.value)/14323);
+		}
+		else if(a.value!=0 && c.value=='p')
+		{
+				b.value=(eval(a.value)/19803);
+		}
+		else if(a.value!=0 && c.value=='q')
+		{
+				b.value=(eval(a.value)/41469);
+		}
+		else if(a.value!=0 && c.value=='r')
+		{
+				b.value=(eval(a.value)/31145);
+		}
+		else if(a.value!=0 && c.value=='s')
+		{
+				b.value=(eval(a.value)/30498);
+		}
+		else if(a.value!=0 && c.value=='t')
+		{
+				b.value=(eval(a.value)/22375);
+		}
+		else if(a.value!=0 && c.value=='u')
+		{
+				b.value=(eval(a.value)/30498);
+		}
+		else if(a.value!=0 && c.value=='v')
+		{
+				b.value=(eval(a.value)/16593);
+		}
+		else if(a.value!=0 && c.value=='w')
+		{
+				b.value=(eval(a.value)/15716);
+		}
+		else if(a.value!=0 && c.value=='x')
+		{
+				b.value=(eval(a.value)/14975);
+		}
+		else if(a.value!=0 && c.value=='v')
+		{
+				b.value=(eval(a.value)/12912);
+		}
+		else
+		{
+				b.value=('Masukan Pilihan');
+		}
+	}
+</script>
+<body>
+	<header class="container">
+		<div class="row">
+			<h2 id="satu">Konversi Mata Uang</h2>
+		</div>
+	</header>
+<img src="img/uang1.png" alt="">
+<center><table>
+	<caption id="dua">Konversi Mata Uang</caption>
+	<tr>
+		<th> konversi </th>
+		<th> Mata uang </th>
+	</tr>
+	<tr>
+		<td> Dollar </td>
+		<td rowspan="10">Rupiah </td>
+	</tr>
+	<tr>
+		<td> Poundsterling </td>
+	</tr>
+	<tr>
+		<td>Dinar Kuwait </td>
+	</tr>
+	<tr>
+		<td>Dinar Bahrain</td>
+	</tr>
+	<tr>
+		<td>Riyal Oman </td>
+	</tr>
+	<tr>
+		<td>Lat latvia </td>
+	</tr>
+	<tr>
+		<td>Dinar yordania </td>
+	</tr>
+	<tr>
+		<td>Euro Eropa </td>
+	</tr>
+	<tr>
+		<td>Manat Azerbaijan </td>
+	</tr>
+	<tr>
+		<td>Franc Swiss </td>
+	</tr>
+</table></center><br><br>
+<center><form>
+	<label for="Rupiah"> Rupiah : </label>
+	<input id="a" type="name" name="Rupiah">
+	<select id="c">
+		<option value="">Pilihan</option>
+		<option value="o">dolar</option>
+		<option value="p">Poundsterling</option>
+		<option value="q">Dinar kuwait</option>
+		<option value="r">Dinar bahrain</option>
+		<option value="s">Riyal oman</option>
+		<option value="t">Lat latvia</option>
+		<option value="u">Dinar yordania</option>
+		<option value="v">Euro Eropa</option>
+		<option value="w">Manat azerbaijan</option>
+		<option value="x">Franc swiss</option>
+
+	</select>
+	<input id="b" type="text" name="button">
+	<input type="button" name"button" onclick="nilai()" value="tombol">
+	<br>
+
+</form></center>
+</body>
+</html>
